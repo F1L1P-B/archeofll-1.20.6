@@ -1,6 +1,9 @@
 package net.filipb.archeofll;
 
 import net.fabricmc.api.ModInitializer;
+import net.filipb.archeofll.block.ModBlocks;
+import net.filipb.archeofll.item.ModItemGroups;
+import net.filipb.archeofll.item.ModItems;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +14,9 @@ public class ArcheoFLL implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
