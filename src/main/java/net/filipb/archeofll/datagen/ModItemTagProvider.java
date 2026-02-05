@@ -4,6 +4,8 @@ import java.util.concurrent.CompletableFuture;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.filipb.archeofll.item.ModItems;
+import net.filipb.archeofll.util.ModTags;
 import net.minecraft.registry.RegistryWrapper.WrapperLookup;
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
@@ -13,6 +15,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(WrapperLookup wrapperLookup) {
-
+        getOrCreateTagBuilder(ModTags.Items.ARTIFACTS)
+        .add(ModItems.CANOPIC_JAR)
+        .add(ModItems.USHABTI)
+        .add(ModItems.SCARAB_AMULET)
+        .add(ModItems.EYE_OF_HORUS)
+        .add(ModItems.CARTOUCHE_FRAGMENT);
     }
 }

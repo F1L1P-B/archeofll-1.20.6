@@ -1,3 +1,24 @@
 {
-    "itemgroup.archeofll": "ArcheoFLL Items"
+    "itemgroup.archeofll": "ArcheoFLL Items",
+    "tag.item.archeofll.artifacts": "Artifacts",
+
+    "item.archeofll.canopic_jar": "Canopic Jar",
+    "tooltip.archeofll.canopic_jar.1": "A ceremonial vessel used in mummification.",
+    "tooltip.archeofll.canopic_jar.2": "It once preserved the organs of the deceased.",
+
+    "item.archeofll.ushabti": "Ushabti Figurine",
+    "tooltip.archeofll.ushabti.1": "A small funerary figurine placed in tombs.",
+    "tooltip.archeofll.ushabti.2": "It was meant to serve the dead in the afterlife.",
+
+    "item.archeofll.scarab_amulet": "Scarab Amulet",
+    "tooltip.archeofll.scarab_amulet.1": "An amulet carved in the shape of a scarab beetle.",
+    "tooltip.archeofll.scarab_amulet.2": "A symbol of rebirth and protection.",
+
+    "item.archeofll.eye_of_horus": "Eye of Horus",
+    "tooltip.archeofll.eye_of_horus.1": "A sacred symbol associated with the god Horus.",
+    "tooltip.archeofll.eye_of_horus.2": "It represents protection, healing, and power.",
+
+    "item.archeofll.cartouche_fragment": "Cartouche Fragment",
+    "tooltip.archeofll.cartouche_fragment.1": "A fragment of a royal name inscription.",
+    "tooltip.archeofll.cartouche_fragment.2": "The pharaoh it once honored is long forgotten."
 }

@@ -17,7 +17,8 @@ public class ModTags {
     }
 
     public static class Items {
-    
+        public static final TagKey<Item> ARTIFACTS =
+        createTag("artifacts");
         
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(ArcheoFLL.MOD_ID, name));

@@ -16,6 +16,12 @@ public class ModItemGroups {
         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.archeofll"))
         .icon(() -> new ItemStack(Items.BRUSH)).entries((displayContext, entries) -> {
             entries.add(Items.BRUSH);
+
+            entries.add(ModItems.CANOPIC_JAR);
+            entries.add(ModItems.USHABTI);
+            entries.add(ModItems.SCARAB_AMULET);
+            entries.add(ModItems.EYE_OF_HORUS);
+            entries.add(ModItems.CARTOUCHE_FRAGMENT);
         }).build());
 
     public static void registerItemGroups() {
