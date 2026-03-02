@@ -3,7 +3,8 @@
 	"package": "net.filipb.archeofll.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"BrushableBlockEntityMixin",
+		"AbstractBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

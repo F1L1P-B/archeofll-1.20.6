@@ -1,0 +1,3 @@
+classTweaker v1 named
+
+inject-interface net/minecraft/block/entity/BrushableBlockEntity net/filipb/archeofll/util/ItemSetter
