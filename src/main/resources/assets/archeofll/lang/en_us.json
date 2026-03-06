@@ -2,6 +2,8 @@
     "itemgroup.archeofll": "ArcheoFLL Items",
     "tag.item.archeofll.artifacts": "Artifacts",
 
+    "block.archeofll.artifact_display": "Artifact Display",
+    
     "item.archeofll.canopic_jar": "Canopic Jar",
     "tooltip.archeofll.canopic_jar.1": "A ceremonial vessel used in mummification.",
     "tooltip.archeofll.canopic_jar.2": "It once preserved the organs of the deceased.",

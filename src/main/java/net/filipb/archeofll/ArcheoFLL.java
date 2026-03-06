@@ -2,6 +2,7 @@ package net.filipb.archeofll;
 
 import net.fabricmc.api.ModInitializer;
 import net.filipb.archeofll.block.ModBlocks;
+import net.filipb.archeofll.block.entity.ModBlockEntities;
 import net.filipb.archeofll.item.ModItemGroups;
 import net.filipb.archeofll.item.ModItems;
 
@@ -18,5 +19,7 @@ public class ArcheoFLL implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModBlockEntities.registerBlockEntities();
 	}
 }

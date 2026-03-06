@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "archeofll:block/artifact_display"
+    }
+  }
+}

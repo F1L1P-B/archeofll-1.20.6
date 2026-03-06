@@ -1,6 +1,8 @@
-// 1.20.6	2026-02-04T21:17:44.9367808	ArcheoFLL/Model Definitions
+// 1.20.6	2026-03-03T20:43:20.5499779	ArcheoFLL/Model Definitions
 55cc12f6f54bafec3782fa28e8ce559f4b83d79f assets\archeofll\models\item\scarab_amulet.json
 959140fae60f1317a4753f51bff9ae4c43a21fb9 assets\archeofll\models\item\cartouche_fragment.json
 fdac6a30fec7ce3516973fa691ca5bbf6d31f276 assets\archeofll\models\item\ushabti.json
 8d11610f2b3cc4e03c43c852fea65be345c6be89 assets\archeofll\models\item\eye_of_horus.json
+07739d79f2b4c4742c7ef3237d56c2d6de537cb8 assets\archeofll\models\item\artifact_display.json
 3085464684e6fb2ff4456dcf05e4857240f60f75 assets\archeofll\models\item\canopic_jar.json
+67fee8808d777cbe3aa898fa969e39283ab7676a assets\archeofll\blockstates\artifact_display.json

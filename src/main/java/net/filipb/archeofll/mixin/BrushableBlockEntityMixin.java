@@ -1,7 +1,6 @@
 package net.filipb.archeofll.mixin;
 
 import org.jetbrains.annotations.Nullable;
-import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
@@ -17,7 +16,6 @@ import net.minecraft.loot.LootTable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.math.BlockPos;
 
-@Debug(export = true)
 @Mixin(BrushableBlockEntity.class)
 public abstract class BrushableBlockEntityMixin extends BlockEntity implements ItemSetter {
     public BrushableBlockEntityMixin(BlockEntityType<?> type, BlockPos pos, BlockState state) {

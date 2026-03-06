@@ -2,6 +2,7 @@ package net.filipb.archeofll.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.filipb.archeofll.ArcheoFLL;
+import net.filipb.archeofll.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -16,6 +17,8 @@ public class ModItemGroups {
         FabricItemGroup.builder().displayName(Text.translatable("itemgroup.archeofll"))
         .icon(() -> new ItemStack(Items.BRUSH)).entries((displayContext, entries) -> {
             entries.add(Items.BRUSH);
+
+            entries.add(ModBlocks.ARTIFACT_DISPLAY);
 
             entries.add(ModItems.CANOPIC_JAR);
             entries.add(ModItems.USHABTI);
